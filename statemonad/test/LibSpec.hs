@@ -18,3 +18,6 @@ spec = do
                     return z )
                   0
         `shouldBe` -3
+    describe "build" $ do
+      it "transforms state" $ do
+        
